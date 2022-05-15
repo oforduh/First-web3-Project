@@ -1,0 +1,101 @@
+.appContainer {
+  min-height: 100vh;
+  // border: 2px solid red;
+  button {
+    font-family: Montserrat;
+  }
+  .greeterFormContainer {
+    // border: 2px solid blue;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    .greetingContentDiv {
+      text-align: center;
+      color: green;
+      font-weight: bolder;
+      margin: 20px 0;
+    }
+    form {
+      width: 50%;
+      font-family: Montserrat;
+      .fetchGreeting {
+        font-family: Montserrat;
+        margin-bottom: 30px;
+      }
+      .fromGroup {
+        label {
+          display: block;
+          margin-bottom: 10px;
+        }
+        input {
+          width: 100%;
+          padding: 8px 10px;
+          outline: none;
+          margin-bottom: 20px;
+          height: 45px;
+        }
+      }
+      button {
+        cursor: pointer;
+        width: 100%;
+        height: 45px;
+        outline: none;
+        background-color: rgb(32, 32, 123);
+        color: #fff;
+        font-size: 16px;
+        font-weight: bolder;
+      }
+    }
+  }
+  .TokenFormContainer {
+    // border: 2px solid blue;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    .TokenContentDiv {
+      text-align: center;
+      color: green;
+      font-weight: bolder;
+      margin-bottom: 20px;
+    }
+    form {
+      width: 50%;
+      font-family: Montserrat;
+      .getBalance {
+        font-family: Montserrat;
+        margin-bottom: 30px;
+        background-color: green;
+        color: #fff;
+      }
+      .fromGroup {
+        label {
+          display: block;
+          margin-bottom: 10px;
+        }
+        input {
+          width: 100%;
+          padding: 8px 10px;
+          outline: none;
+          margin-bottom: 20px;
+          height: 45px;
+        }
+      }
+      button {
+        cursor: pointer;
+        width: 100%;
+        height: 45px;
+        outline: none;
+        background-color: rgb(32, 32, 123);
+        color: #fff;
+        font-size: 16px;
+        font-weight: bolder;
+      }
+    }
+  }
+}
